@@ -11,12 +11,12 @@ namespace C_Sharp_Program
         static void Main(string[] args)
         {
             Console.Write("Enter the temprature in celsius : ");
-            double celsius = double.Parse(Console.ReadLine());
+            int celsius = int.Parse(Console.ReadLine());
             
-            double fahrenheit = (double)(celsius * 9) / 5 + 32;
+            int fahrenheit = (celsius * 9) / 5 + 32;
 
-            //double result = (int)fahrenheit;
             Console.WriteLine("Temprature in Fahrenheit: {0}", fahrenheit);
+
         }
     }
 }
