@@ -6,7 +6,7 @@
     <RootNamespace>C_Sharp_Program</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>C_Sharp_Program.ArithmeticOperation</StartupObject>
+    <StartupObject>C_Sharp_Program.PercentageFiveSubject</StartupObject>
   </PropertyGroup>
 
 </Project>
