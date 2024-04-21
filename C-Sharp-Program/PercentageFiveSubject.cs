@@ -29,6 +29,8 @@ namespace C_Sharp_Program
 
             int average = obtainedMarks / 5;
 
+            //double percentage = ((double)obtainedMarks / 500) * 100;
+
             int percentage = (obtainedMarks / 500) * 100;
 
             Console.WriteLine("Total marks is : {0}", obtainedMarks);
